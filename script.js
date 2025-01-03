@@ -8,6 +8,6 @@ bgzy.init([
   "img/duizhan.jpg"
 ],{
   timeout:2000,
-  showTicker: true
+  showTicker: false
 }
 );
