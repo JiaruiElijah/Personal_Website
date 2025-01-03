@@ -93,7 +93,7 @@ body {
 }
 #img4 {
   display: flex;
-  background:url(ramen2.png) top center;
+  background:url(img/ramen2.png) top center;
   background-size: cover;
   height: 50vh;
   width: 60vw;
