@@ -11,27 +11,31 @@ body {
   background-color: #000;
   color: #fff;
   font-family: "articulat-cf", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 2em;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 3vw;
 
 }
 
 
 #mainContainer {
   display: flex;
-  background:url(gerenzhan2.jpg) top center;
+  background:url(gerenzhan.png) top center;
   background-size: cover;
+  justify-content: center;
   height: 100vh;
-
 
 }
 #cover  {
   display: flex;
   flex-direction: column;
-  font-weight: 800;
-  background-color: rgba(0,0,0,0.5);
-  width: 30vw;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.7);
+  margin: 0px;
+  backdrop-filter: blur(1px);
+  font-size: 1em;
+  width: 100%;
 
 }
 #cover p {
@@ -93,7 +97,7 @@ body {
 }
 #img4 {
   display: flex;
-  background:url(img/Ramen2.png) top center;
+  background:url(ramen.png) top center;
   background-size: cover;
   height: 50vh;
   width: 60vw;
@@ -112,9 +116,16 @@ body {
   height: 60vh;
   width: 70vw;
 }
+#img8 {
+  display: flex;
+  background:url(GameJam.png) top center;
+  background-size: cover;
+  height: 60vh;
+  width: 70vw;
+}
 #content{
   display: flex;
-  margin: 5vh;
+  margin: 10vh;
   gap: 3vw;
 
 }
@@ -122,7 +133,7 @@ body {
   display: flex;
   width: 50vw;
   height: 30vh;
-  font-size: 1vw;
+  font-size: 1.5vw;
   flex-direction: column;
   line-height: 5vh;
 
